@@ -67,7 +67,7 @@ Statistiche:&nbsp; Successi = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:
 <button onclick=load_historyblock()> History Blocker </button> 
 <button onclick=load_updatesdisable()> Disable Updates </button> 
 <br><br>
-<button onclick=load_gtaV127()> Mod Menu per GTAV v1.00</button> 
+<button onclick=load_gtaV127()> Mod Menu per GTA 5</button> 
 <div style=font-size:16px>*Per le mod di GTA 5 utilizzare il tasto PS, non il cerchio.</div>
 <br>
 <button onclick=load_fanthresh()> Setta le Ventole </button><select id="tempC"></select>&#176;C<br>
@@ -132,7 +132,7 @@ else if(UA == "6.72" && sessionStorage.exprun == null && sessionStorage.henrun =
 }
 
 function load_Exp(){
-msgs.innerHTML="Attendere ...";
+msgs.innerHTML="Attendere...";
 LoadedMSG="Modifica Effettuata per metà, seleziona che tipo di modifica usare.";
 justExp.style="display:none";
 sessionStorage.justExp=1;
@@ -140,7 +140,7 @@ setTimeout(jailbreak,500);
 }
 
 function load_ExpHen(){
-msgs.innerHTML="Attendere ...";
+msgs.innerHTML="Attendere...";
 localStorage.henVer = "v2.1.3";
 LoadedMSG="Modifica Effettuata, premi Cerchio per uscire";
 justExp.style="display:none";
@@ -149,7 +149,7 @@ setTimeout(jailbreak,500);
 }
 
 function load_ExpHenb(){
-msgs.innerHTML="Attendere ...";
+msgs.innerHTML="Attendere...";
 localStorage.henVer = "v2.1.3b";
 LoadedMSG="Modifica Effettuata, premi Cerchio per uscire";
 justExp.style="display:none";
@@ -158,7 +158,7 @@ setTimeout(jailbreak,500);
 }
 
 function load_HEN(){
-msgs.innerHTML="Carico HEN v2.1.3 ...";
+msgs.innerHTML="Carico HEN v2.1.3...";
 LoadedMSG="HEN Caricato - premi Cerchio per uscire";
 PLhen="pl_HEN.js";
 localStorage.henVer = "v2.1.3";
@@ -168,7 +168,7 @@ var script=document.createElement('script');script.src="exp_loaderHEN.js";docume
 }
 
 function load_HENb(){
-msgs.innerHTML="Carico HEN v2.1.3b ...";
+msgs.innerHTML="Carico HEN v2.1.3b...";
 LoadedMSG="HEN Caricato - premi Cerchio per uscire";
 PLhen="pl_HENb.js";
 localStorage.henVer = "v2.1.3b";
@@ -178,42 +178,42 @@ var script=document.createElement('script');script.src="exp_loaderHEN.js";docume
 }
 
 function load_binloader(){
-msgs.innerHTML="Carico Bin Loader ...";
+msgs.innerHTML="Carico Bin Loader...";
 LoadedMSG="Manda il Payload alla porta 9021";
 function loadScript(){getScript("exp_loaderBL.js",function(){});}
 loadScript();
 }
 
 function load_ftp(){
-msgs.innerHTML="Carico FTP ...";
+msgs.innerHTML="Carico FTP...";
 LoadedMSG="FTP Caricato";
 PLscript="pl_ftp.js";
 loadScript1();
 }
 
 function load_dumper(){
-msgs.innerHTML="Carico Dumper ...";
+msgs.innerHTML="Carico Dumper...";
 LoadedMSG="Dumper Caricato";
 PLscript="pl_dumper.js";
 loadScript1();
 }
 
 function load_linux(){
-msgs.innerHTML="Carico Linux ...";
+msgs.innerHTML="Carico Linux...";
 LoadedMSG="Linux Caricato";
 PLscript="pl_linux.js";
 loadScript1();
 }
 
 function load_webrte(){
-msgs.innerHTML="Carico WebRTE ...";
+msgs.innerHTML="Carico WebRTE...";
 LoadedMSG="WebRTE Caricato";
 PLscript="pl_WebRTE.js";
 loadScript1();
 }
 
 function load_ps4debug(){
-msgs.innerHTML="Carico PS4Debug ...";
+msgs.innerHTML="Carico PS4Debug...";
 LoadedMSG="PS4Debug Caricato";
 PLscript="pl_ps4debug.js";
 loadScript1();
@@ -221,14 +221,14 @@ loadScript1();
 
 
 function load_historyblock(){
-msgs.innerHTML="Carico History Blocker ...";
+msgs.innerHTML="Carico History Blocker...";
 LoadedMSG="History Blocker Caricato";
 PLscript="pl_historyBlocker.js";
 loadScript1();
 }
 
 function load_updatesdisable(){
-msgs.innerHTML="Carico Disable Updates ...";
+msgs.innerHTML="Carico Disable Updates...";
 LoadedMSG="Disable Updates Caricato";
 PLscript="pl_updatesDisable.js";
 loadScript1();
@@ -236,14 +236,14 @@ loadScript1();
 
 
 function load_gtaV127(){ 
-msgs.innerHTML="Carico GTAV ArabicGuy Mod Menu ...";
-LoadedMSG="GTAV Mod Menu Caricato usa Destra+Quadrato per Attivarlo";
+msgs.innerHTML="Carico Mod Menu GTA 5...";
+LoadedMSG="Mod Menu GTA 5 Caricato usa [Destra + Quadrato] per Attivarlo";
 PLscript="pl_GTA_ArabicGuyV1.27.js";
 loadScript1();
 }
 
 function load_fanthresh(){
-msgs.innerHTML="Carico Fan Threshold ...";
+msgs.innerHTML="Carico Fan Threshold...";
 LoadedMSG="Fan Threshold Caricato";fanTemp=tempC.value;
 PLscript="pl_fanthresh.js";
 loadScript1();
